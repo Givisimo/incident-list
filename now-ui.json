@@ -1,0 +1,15 @@
+{
+  "components": {
+    "x-550308-incident-list": {
+      "innerComponents": ["now-template-card"],
+      "uiBuilder": {
+        "associatedTypes": ["global.layout", "global.visualization"],
+        "label": "Incident list component",
+        "icon": "document-outline",
+        "description": "Render incident cards from API",
+        "category": "primitives"
+      }
+    }
+  },
+  "scopeName": "x_550308_test_in_0"
+}
