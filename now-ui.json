@@ -2,6 +2,16 @@
   "components": {
     "x-550308-incident-list": {
       "innerComponents": ["now-template-card"],
+      "actions": [
+        {
+          "name": "FETCH_LATEST_INCIDENT",
+          "description": "Fetch data from API"
+        },
+        {
+          "name": "INCIDENT_FETCH_SUCCESS",
+          "description": "updates state with data from API"
+        }
+      ],
       "uiBuilder": {
         "associatedTypes": ["global.layout", "global.visualization"],
         "label": "Incident list component",
