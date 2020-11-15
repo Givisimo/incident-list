@@ -4,11 +4,11 @@
       "innerComponents": ["now-template-card"],
       "actions": [
         {
-          "name": "FETCH_LATEST_INCIDENT",
+          "name": "FETCH_LATEST_INCIDENT_STARTED",
           "description": "Fetch data from API"
         },
         {
-          "name": "INCIDENT_FETCH_SUCCESS",
+          "name": "INCIDENT_FETCH_SUCCEEDED",
           "description": "updates state with data from API"
         }
       ],
